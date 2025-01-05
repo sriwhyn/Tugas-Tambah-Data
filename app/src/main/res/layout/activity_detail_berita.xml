@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <!-- Produk Thumbnail -->
+        <TextView
+            android:id="@+id/txtJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="judul"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgProduk"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop" />
+
+        <!-- Produk Title -->
+
+        <!-- Produk Brand -->
+        <TextView
+            android:id="@+id/txtTanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="tanggal"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Harga Produk -->
+
+        <!-- Stok Produk -->
+
+        <!-- Kategori Produk -->
+        <TextView
+            android:id="@+id/txtIsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Isi"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Deskripsi Produk -->
+
+    </LinearLayout>
+</ScrollView>
